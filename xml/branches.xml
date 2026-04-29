@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE branches SYSTEM "branches.dtd">
+
+<branches>
+  <branch id="1">
+    <name>Surry Hills</name>
+    <address>123 Crown Street, Surry Hills NSW 2010</address>
+    <phone>+61 2 9876 5432</phone>
+    <hours>Mon - Fri: 7:00 AM - 4:00 PM | Sat - Sun: 8:00 AM - 5:00 PM</hours>
+    <map>https://www.google.com/maps?q=123+Crown+Street+Surry+Hills+NSW+2010</map>
+  </branch>
+
+  <branch id="2">
+    <name>Haymarket</name>
+    <address>456 George Street, Haymarket NSW 2000</address>
+    <phone>+61 2 9876 5433</phone>
+    <hours>Daily: 8:00 AM - 10:00 PM</hours>
+    <map>https://www.google.com/maps?q=456+George+Street+Haymarket+NSW+2000</map>
+  </branch>
+
+  <branch id="3">
+    <name>Circular Quay</name>
+    <address>789 Pitt Street, Sydney NSW 2000</address>
+    <phone>+61 2 9876 5434</phone>
+    <hours>Mon - Sun: 6:30 AM - 6:00 PM</hours>
+    <map>https://www.google.com/maps?q=789+Pitt+Street+Sydney+NSW+2000</map>
+  </branch>
+</branches>
