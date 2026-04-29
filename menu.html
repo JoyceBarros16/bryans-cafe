@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Menu - Bryan's Café</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+<header class="site-header">
+  <nav class="navbar">
+    <a href="index.html" class="logo">☕ Bryan's Café</a>
+
+    <button class="menu-toggle" id="menuToggle">☰</button>
+
+    <ul class="nav-links" id="navLinks">
+      <li><a href="index.html">About</a></li>
+      <li><a href="menu.html" class="active">Menu</a></li>
+      <li><a href="contact.html">Contact</a></li>
+    </ul>
+  </nav>
+</header>
+
+<main>
+
+<!-- HERO -->
+<section class="page-hero simple-hero">
+  <div class="page-hero-content">
+    <h1>Our Seasonal Menu</h1>
+    <p>Fresh food made with quality ingredients.</p>
+  </div>
+</section>
+
+<!-- CARDS -->
+<section class="menu-section">
+  <h2>Meals</h2>
+  <div id="menuMeals" class="menu-grid"></div>
+</section>
+
+<section class="menu-section alt-section">
+  <h2>Coffee & Hot Chocolates</h2>
+  <div id="menuCoffee" class="menu-grid"></div>
+</section>
+
+<section class="menu-section">
+  <h2>Other Beverages</h2>
+  <div id="menuBeverages" class="menu-grid"></div>
+</section>
+
+<!-- TABLES -->
+<section class="menu-table-section">
+
+  
+
+  <h3 class="table-title">Meals</h3>
+  <table class="menu-table">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Price</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody id="tableMeals"></tbody>
+  </table>
+
+  <h3 class="table-title">Coffee and hot chocolate</h3>
+  <table class="menu-table">
+    <thead>
+      <tr>
+        <th>Size</th>
+        <th>Price</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody id="tableCoffee"></tbody>
+  </table>
+
+  <h3 class="table-title">Other beverages</h3>
+  <table class="menu-table">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Price</th>
+      </tr>
+    </thead>
+    <tbody id="tableBeverages"></tbody>
+  </table>
+
+</section>
+
+</main>
+
+<footer class="site-footer">
+  <p id="footerYear"></p>
+  <div class="footer-links">
+    <a href="privacy.html" target="_blank">Privacy Policy</a>
+  </div>
+</footer>
+
+<script src="js/main.js"></script>
+<script src="js/menu.js"></script>
+
+</body>
+</html>
