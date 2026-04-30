@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Contact - Bryan's Café</title>
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+  <header class="site-header">
+    <nav class="navbar">
+      <a href="index.html" class="logo">☕ Bryan's Café</a>
+
+      <button class="menu-toggle" id="menuToggle" aria-label="Open navigation">
+        ☰
+      </button>
+
+      <ul class="nav-links" id="navLinks">
+        <li><a href="index.html">About</a></li>
+        <li><a href="menu.html">Menu</a></li>
+        <li><a href="contact.html" class="active">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section class="contact-hero">
+      <div class="contact-grid">
+        <div class="contact-intro">
+          <p class="small-label">GET IN TOUCH</p>
+          <h1>We’d love to hear from you.</h1>
+          <p>
+            Whether you are enquiring about our seasonal menus, private events,
+            or just want to share your café experience, our team is here to
+            listen.
+          </p>
+        </div>
+
+        <div class="contact-form-card">
+          <h2>Send an Enquiry</h2>
+
+          <form id="enquiryForm">
+            <label for="firstName">First Name</label>
+            <input type="text" id="firstName" name="firstName" required />
+
+            <label for="lastName">Last Name</label>
+            <input type="text" id="lastName" name="lastName" required />
+
+            <label for="email">Email Address</label>
+            <input type="email" id="email" name="email" required />
+
+            <label for="subject">Message Subject</label>
+            <input type="text" id="subject" name="subject" required />
+
+            <label for="message">Message Body</label>
+            <textarea id="message" name="message" rows="5" required></textarea>
+
+            <button type="submit" class="btn btn-primary full-width">
+              Submit Message
+            </button>
+          </form>
+
+          <p class="form-note">
+            * A confirmation message will be shown after submission.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section class="branches-section">
+      <div class="section-heading">
+        <h2>Our Branches</h2>
+      </div>
+      <div id="branchesList" class="branches-grid"></div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <p id="footerYear"></p>
+    <div class="footer-links">
+  <a href="privacy.html" target="_blank">Privacy Policy</a>
+</div>
+  </footer>
+
+  <script src="js/main.js"></script>
+  <script src="js/branches.js"></script>
+</body>
+</html>

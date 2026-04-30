@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE menu SYSTEM "menu.dtd">
+
+<menu>
+  <item id="1">
+    <name>Beetroot and feta salad</name>
+    <description>Earth roasted beets paired with tangy feta and fresh garden greens.</description>
+    <price>15.00</price>
+    <image>beetroot-feta-salad.jpg</image>
+    <category>meal</category>
+    <tag>Vegetarian</tag>
+  </item>
+
+  <item id="2">
+    <name>Sourdough Rye Sandwich</name>
+    <description>Crusty house-baked rye sourdough with seasonal fillings and herb aioli.</description>
+    <price>18.00</price>
+    <image>rye-sandwich.jpg</image>
+    <category>meal</category>
+    <tag>Signature</tag>
+  </item>
+
+  <item id="3">
+    <name>Spinach Pie and Salad</name>
+    <description>Traditional flaky pastry filled with spinach and herbs, served with seasonal salad.</description>
+    <price>20.00</price>
+    <image>spinach-pie-salad.jpg</image>
+    <category>meal</category>
+    <tag>House Made</tag>
+  </item>
+
+  <item id="4">
+    <name>Feta pancakes with salad</name>
+    <description>Savoury pancakes made with local feta, topped with garden microgreens.</description>
+    <price>19.50</price>
+    <image>feta-pancakes-salad.jpg</image>
+    <category>meal</category>
+    <tag>Chef's Special</tag>
+  </item>
+
+  <item id="5">
+    <name>Small Coffee</name>
+    <description>Please inform our staff of your preferred coffee type.</description>
+    <price>3.50</price>
+    <image>small-coffee.jpg</image>
+    <category>coffee</category>
+    <tag>Small</tag>
+  </item>
+
+  <item id="6">
+    <name>Regular Coffee</name>
+    <description>Please inform our staff of your preferred coffee type.</description>
+    <price>4.00</price>
+    <image>regular-coffee.jpg</image>
+    <category>coffee</category>
+    <tag>Regular</tag>
+  </item>
+
+  <item id="7">
+    <name>Large Coffee</name>
+    <description>Please inform our staff of your preferred coffee type.</description>
+    <price>4.50</price>
+    <image>large-coffee.jpg</image>
+    <category>coffee</category>
+    <tag>Large</tag>
+  </item>
+
+  <item id="8">
+  <name>Hot Chocolate</name>
+  <description>Regular size hot chocolate made with rich cocoa.</description>
+  <price>4.00</price>
+  <image>hot-chocolate.jpg</image>
+  <category>coffee</category>
+  <tag>Regular</tag>
+</item>
+
+  <item id="9">
+    <name>Soda</name>
+    <description>Refreshing cold selection.</description>
+    <price>3.00</price>
+    <image>soda.jpg</image>
+    <category>beverage</category>
+    <tag>Cold Drink</tag>
+  </item>
+
+  <item id="10">
+    <name>Fresh Juice</name>
+    <description>Freshly prepared seasonal juice.</description>
+    <price>6.00</price>
+    <image>freshjuice.jpg</image>
+    <category>beverage</category>
+    <tag>Fresh</tag>
+  </item>
+
+  <item id="11">
+  <name>Tea</name>
+  <description>Hot tea served with natural herbs.</description>
+  <price>4.00</price>
+  <image>tea.jpg</image>
+  <category>beverage</category>
+  <tag>Hot Drink</tag>
+</item>
+
+  <item id="12">
+    <name>Bottled Water</name>
+    <description>Still bottled water.</description>
+    <price>2.00</price>
+    <image>bottlewater.jpg</image>
+    <category>beverage</category>
+    <tag>Classic</tag>
+  </item>
+</menu>
