@@ -25,6 +25,23 @@ The project focuses on front-end web development, responsive design, web accessi
 - Structured XML data
 - Web accessibility
 
+## Screenshots
+
+### Homepage
+![Homepage](screenshots/home.png)
+
+### Menu Page
+![Menu Page](screenshots/menu.png)
+
+### Contact Page
+![Contact Page](screenshots/contact.png)
+
+### Privacy Policy
+![Privacy Policy](screenshots/privacy.png)
+
+### Mobile Responsive Design
+![Mobile Version](screenshots/mobile.png)
+
 ## How to Run the Project
 
 1. Clone or download this repository.
