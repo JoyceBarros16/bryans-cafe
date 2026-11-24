@@ -1,0 +1,13 @@
+# macOS system files
+.DS_Store
+
+# Editor settings
+.vscode/
+
+# Environment variables
+.env
+.env.*
+!.env.example
+
+# Temporary files
+*.log
