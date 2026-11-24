@@ -6,6 +6,10 @@ Bryan's Café is a responsive multi-page website developed as part of my Informa
 
 The project focuses on front-end web development, responsive design, web accessibility and user-friendly navigation.
 
+## Live Demo
+
+[View the live website](https://joycebarros16.github.io/bryans-cafe/)
+
 ## Technologies Used
 
 - HTML5
